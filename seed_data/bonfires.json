@@ -566,6 +566,7 @@
       "Return a new array that transforms the element's average altitude into their orbital periods.",
       "The array will contain objects in the format {name: 'name', avgAlt: avgAlt}.",
       "You can read about orbital periods <a href=\"http://en.wikipedia.org/wiki/Orbital_period\">on wikipedia</a>.",
+      "For precision get your scientific constants from <a href=\"www.wolframalpha.com\">Wolfram Alpha</a>",
       "The values should be rounded to the nearest whole number. Assume the body being orbited is Earth."
     ],
     "challengeSeed": "function orbitalPeriod(arr) {\n\/\/Use 398600.4418 for GM. Look up any other values on wolfram alpha\n  return arr;\r\n}\r\n\r\norbitalPeriod([{name : \"sputkin\", avgAlt : 35873.5553}]);",
